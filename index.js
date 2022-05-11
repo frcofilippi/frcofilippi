@@ -8,4 +8,3 @@ await fs.writeFile('./README.md', newTemplate);
 })();
 
 console.log('Profile updated!');
-
