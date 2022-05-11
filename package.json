@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/frcofilippi/frcofilippi/issues"
   },
-  "homepage": "https://github.com/frcofilippi/frcofilippi#readme"
+  "homepage": "https://github.com/frcofilippi/frcofilippi#readme",
+  "dependencies": {
+    "axios": "0.27.2"
+  }
 }
