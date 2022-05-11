@@ -1,6 +1,8 @@
 Hi there,
     I'm Franco, Software Engineer, from Argentina.
 
+![](https://komarev.com/ghpvc/?username=frcofilippi)
+
 ```javascript
 const frcofilippi = {
     name: 'Franco Filippi',
