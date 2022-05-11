@@ -1,4 +1,5 @@
-  <h1 align="center"> I'm Franco, Software Engineer, from Argentina. ![](https://komarev.com/ghpvc/?username=frcofilippi)<h1/> 
+  <h1 align="center"> I'm Franco, Software Engineer, from Argentina.<h1/> 
+  ![](https://komarev.com/ghpvc/?username=frcofilippi)
 
 ```javascript
 const frcofilippi = {
