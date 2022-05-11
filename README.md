@@ -15,7 +15,7 @@ const frcofilippi = {
     },
     {
         language: 'English',
-        level: 'profesional'
+        level: 'professional'
     }],
     skills: ['responsible', 'proactive', 'fast-lerner', 'easy-going', 'good-team-member'],
     experience: ['REST','SOAP','Nodejs', 'MSSQL', 'MongoDB', '.NetCore', 'DOCKER']
