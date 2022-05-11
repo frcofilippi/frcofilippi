@@ -7,3 +7,5 @@ const newTemplate = readmeTeplate.replace('{{Date}}',`${today.getFullYear()}/${t
 await fs.writeFile('./README.md', newTemplate);
 })();
 
+console.log('Profile updated!');
+
