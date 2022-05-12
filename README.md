@@ -2,7 +2,11 @@
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=frcofilippi&label=Franco's%20Profile%20Views%20&color=dc143c&style=plastic" alt="frcofilippi" /> </p>
 
+<<<<<<< HEAD
 Today is: 2022/4/12 - Location: Cordoba - Temperature: 11ºC
+=======
+Today is: 2022/4/12
+>>>>>>> 540fd94d7bd8948715d8fd573780bca9d763e091
 
 ```javascript
 const frcofilippi = {
