@@ -28,6 +28,6 @@ const API_KEY = process.env.API_KEY;
       );
     await fs.writeFile("./README.md", newTemplate);
   } catch (error) {
-    console.error(`${API_KEY}`);
+    console.error(`API_KEY could not be read - value: ${API_KEY}`);
   }
 })();
