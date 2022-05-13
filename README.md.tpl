@@ -5,21 +5,23 @@
 Today is: {{Date}} - {{Temperature}}
 
 ```javascript
-const frcofilippi = {
-    name: 'Franco Filippi',
-    pronom: 'he/him',
-    age: 35,
-    title: 'Software engineer',
-    languages: [{
-        language: 'Spanish',
-        level: 'native'
-    },
-    {
-        language: 'English',
-        level: 'professional'
-    }],
-    skills: ['responsible', 'proactive', 'fast-lerner', 'easy-going', 'good-team-member'],
-    experience: ['REST','SOAP','Nodejs', 'MSSQL', 'MongoDB', '.NetCore', 'DOCKER']
-  };
+function getMeSoftwareEngineer(){
+    return {
+        name: 'Franco Filippi',
+        age: 35,
+        title: 'Software engineer',
+        languages: [{
+            language: 'Spanish',
+            level: 'native'
+        },
+        {
+            language: 'English',
+            level: 'professional'
+        }],
+        willingToContribute: true,
+        skills: ['responsible', 'proactive', 'fast-lerner', 'easy-going', 'good-team-member'],
+        experience: ['REST','SOAP','Nodejs', 'MSSQL', 'MongoDB', '.NetCore', 'DOCKER']
+      };
+}
 ```
 
