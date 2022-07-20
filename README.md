@@ -5,22 +5,21 @@
 Today is: 2022/7/20 - 
 
 ```javascript
-function getMeSoftwareEngineer(){
+function getResumeDetails(){
     return {
         name: 'Franco Filippi',
         age: 35,
         title: 'Software engineer',
         languages: [{
-            language: 'Spanish',
-            level: 'native'
-        },
-        {
             language: 'English',
             level: 'professional'
+        },{
+            language: 'Spanish',
+            level: 'native'
         }],
+        soft-skills: ['good-team-member', 'Effective communication', 'Creative', 'Well-organized', 'Adaptability'],
+        hard-skills: ['Nodejs', 'SQL', 'MongoDB', 'C#', 'Docker/K8', 'CI/CD', 'Linux / Bash (Basic)', 'AWS'],
         willingToContribute: true,
-        skills: ['responsible', 'proactive', 'fast-lerner', 'easy-going', 'good-team-member'],
-        experience: ['REST','SOAP','Nodejs', 'MSSQL', 'MongoDB', '.NetCore', 'DOCKER']
       };
 }
 ```
