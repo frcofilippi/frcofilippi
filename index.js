@@ -11,7 +11,7 @@ const API_KEY = process.env.API_KEY;
     const newTemplate = readmeTeplate
       .replace(
         "{{Date}}",
-        `${today.getFullYear()}/${today.getMonth()}/${today.getDate()}`
+        `${today.getFullYear()}/${today.getMonth()+1}/${today.getDate()}`
       )
       .replace("{{Temperature}}", weather);
 
