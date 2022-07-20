@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const axios = require("./services");
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.API_K;
 
 (async () => {
   try {
