@@ -1,7 +1,8 @@
 const fs = require("fs").promises;
 const axios = require("./services");
+require('dotenv').config();
 
-const API_KEY = process.env.API_K;
+const API_KEY = process.env.API_KEY;
 
 (async () => {
   try {

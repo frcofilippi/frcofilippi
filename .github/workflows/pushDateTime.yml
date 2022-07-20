@@ -29,8 +29,9 @@ jobs:
       env:
         API_K: ${{ secrets.API_KEY }}
     - run: npm install
-    - run: export API_K=$env:API_K
-    - run: npm run profile-update
+    - run: |
+          echo "API_KEY=$env:API_K" > .env
+          npm run profile-update
     - run: |
           date > now.txt
           git config user.name frcofilippi
