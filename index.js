@@ -16,7 +16,7 @@ const API_KEY = process.env.API_KEY;
       .replace("{{Temperature}}", weather);
 
     await fs.writeFile("./README.md", newTemplate);
-    console.log("Work finished");
+    console.log("Work finished!");
   } catch (error) {
     console.error(`API_KEY could not be read - value: ${API_KEY}`);
   }
