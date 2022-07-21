@@ -26,12 +26,11 @@ jobs:
       with:
         node-version: 16.15.0
         cache: 'npm'
-      env:
-        API_K: ${{ secrets.API_KEY }}
     - run: npm install
     - run: |
-          echo "API_KEY=$env:API_K" > .env
           npm run profile-update
+      env: 
+        API_KEY: ${{ secrets.API_KEY }}
     - run: |
           date > now.txt
           git config user.name frcofilippi
