@@ -33,9 +33,10 @@ const fetchWeatherInfo = async (key, city) => {
         aqi: "yes",
       },
     });
-    const { location, current } = rsponse.data;
+    const { location, current } = response.data;
     return `Location: ${location.name} - Temperature: ${current.temp_c}ºC`;
   } catch (error) {
+    console.log(error);
     return "";
   }
 };
