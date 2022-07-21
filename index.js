@@ -9,6 +9,7 @@ const API_KEY = '2b794e84f2a84c6b9af194929221105';
     const readmeTeplate = await fs.readFile("./README.md.tpl", "utf-8");
     const today = new Date();
     const weather = await fetchWeatherInfo(API_KEY, "cordoba");
+    console.log(weather);
     const newTemplate = readmeTeplate
       .replace(
         "{{Date}}",
