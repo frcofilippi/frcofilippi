@@ -2,7 +2,7 @@
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=frcofilippi&label=Franco's%20Profile%20Views%20&color=dc143c&style=plastic" alt="frcofilippi" /> </p>
 
-Today is: 2022/11/7 - Location: Cordoba - Temperature: 25.8ºC
+Today is: 2022/11/7 - Location: Cordoba - Temperature: 27ºC
 
 ```javascript
 function getResumeDetails(){
