@@ -2,7 +2,7 @@
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=frcofilippi&label=Franco's%20Profile%20Views%20&color=dc143c&style=plastic" alt="frcofilippi" /> </p>
 
-2024/7/1 - Location: Cordoba - Temperature: 19.2ºC
+2024/7/2 - Location: Cordoba - Temperature: 3.1ºC
 
 ```javascript
 function getResumeDetails(){
