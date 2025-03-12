@@ -2,7 +2,7 @@
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=frcofilippi&label=Franco's%20Profile%20Views%20&color=dc143c&style=plastic" alt="frcofilippi" /> </p>
 
-2025/3/11 - Location: Cordoba - Temperature: 27ºC
+2025/3/12 - Location: Cordoba - Temperature: 13.2ºC
 
 ```javascript
 function getResumeDetails(){
